@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="Tr01" xml:lang="ara">مطلع النجوم ومجمع العلوم: الطبعة المرمّزة</title>
+            <title type="transliteration"><ref target="#Tr01" type="transliteration" xml:lang="Latn">Maṭlaʿ al-Nujūm wa-Majmaʿ al-ʿUlūm: Encoded Edition</ref></title>
+            <author>
+               <persName>
+                  <addName xml:id="Tr02" type="kunya" xml:lang="ara">أبو حفص</addName>
+                  <forename xml:id="Tr03" type="ism" xml:lang="ara">عمر</forename>
+                  <addName xml:id="Tr04" type="khitab" xml:lang="ara">نجم الدين</addName>
+                  <surname xml:id="Tr05" type="nisba" subtype="place" xml:lang="ara">النسفي</surname>
+                  <ref target="#Tr02" type="transliteration" xml:lang="Latn">Abū Ḥafṣ</ref>
+                  <ref target="#Tr03" type="transliteration" xml:lang="Latn">ʿUmar</ref>
+                  <ref target="#Tr04" type="transliteration" xml:lang="Latn">Najm al-Dīn</ref>
+                  <ref target="#Tr05" type="transliteration" xml:lang="Latn">al-Nasafī</ref>
+               </persName>
+            </author>
+            <respStmt>
+               <resp>Encoded by</resp>
+                  <persName xml:id="DJC" when="2018">Dale J. Correa</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Published by</resp>
+               <persName ref="DJC" when="2018">Dale J. Correa</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>UT Libraries</distributor>
+            <address>
+               <addrLine>101 E 21st St, Austin, TX, uSA</addrLine>
+            </address>
+            <availability>
+               <p>Freely available on a non-commercial basis.</p>
+            </availability>
+            <date when="2018">2018</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:id="Tr06" xml:lang="ara">مطلع النجوم ومجمع العلوم</title>
+               <ref target="#Tr06" type="transliteration" xml:lang="Latn">Maṭlaʿ al-Nujūm wa-Majmaʿ al-ʿUlūm</ref>
+               <author>
+                  <persName>
+                     <addName ref="Tr02" type="kunya" xml:lang="ara">أبو حفص</addName>
+                     <forename ref="Tr03" type="ism" xml:lang="ara">عمر</forename>
+                     <addName ref="Tr04" type="khitab" xml:lang="ara">نجم الدين</addName>
+                     <surname ref="Tr05" type="nisba" subtype="place" xml:lang="ara">النسفي</surname>
+                     <ref target="#Tr02" type="transliteration" xml:lang="Latn">Abū Ḥafṣ</ref>
+                     <ref target="#Tr03" type="transliteration" xml:lang="Latn">ʿUmar</ref>
+                     <ref target="#Tr04" type="transliteration" xml:lang="Latn">Najm al-Dīn</ref>
+                     <ref target="#Tr05" type="transliteration" xml:lang="Latn">al-Nasafī</ref>
+                  </persName>
+               </author>
+               <msIdentifier>
+                  <country>Uzbekistan</country>
+                  <settlement>Tashkent</settlement>
+                  <institution>Biruni Institute of Oriental Studies</institution>
+               </msIdentifier>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head>
+                  <pb n="36" xml:lang="ara"/>(٣٦)
+                  
+                  <title xml:lang="ara">كتاب تحصيل أصول الفقه وتفصيل المقالات فيها على الوجه</title>
+            
+            <lb/>بسم الله الرحمن الرحيم
+         </head>
+         <p>
+            <lb/><s>اصول الفقه والاحكام فرع لعلم اصول الكلام</s>
+            <s>والاصول جمع اصل والاصل ما يتفرع منه غيره</s>
+            <s>والفقه الوقوف على المعنى الخفيّ الذي تعلق به حكم يحتاج فيه الى النظر والاستدلال</s>
+            <s>والدلائل التي يعرف بها الاحكام الشرعية ثلاثة الكتاب والسنة والاجماع</s>
+            <s>وفرع هذه الاصول الثلاثة القياس الشرعي</s>
+            <persName xml:id="MHD" xml:lang="ara">محمد</persName>فالكتاب هو القرآن المنزل على رسولنا<s>
+            صلى الله عليه
+            </s>وسلّم امرنا بالايمان والعمل به ونهينا عن العمل بالتورية والانجيل والنظر فيها لوقوع التحريف في بعضها
+            وتعلق الاحكام بالكتاب<s>
+            </s>وكونه دالّاً عليها من وجوه العبارة والاشارة والاجتهاد والدلالة والاقتضاء
+            امّا العبارة فاقسام الكلام فيه الامر والنهي<s>
+            والخبر ثم ينقسم اقساما من  العامّ والخاص والمشترك والماؤل والظاهر والخفي والنص والمشكل والمفسر والمجمل
+            </s> والمحكم والمتشابه والحقيقة والمجاز والصريح والكناية والمطلق والمقيّد وغير ذلك
+            فامّا اقسام الامر فالامر على<s>
+            </s>لفظ الامام ابي منصور رحمه الله هو القول الذي هو دعاء الى تحصيل الفعل على طريق العلوّ والعظمة دون التضرع
+            وهذا<s>
+            </s>تحرّز عن السؤال والدعاء
+          وقيل هو الاستدعآء على طريق الاستعلاء قولا
+               وقيل هو اقتضآء الطاعة من المامور باتيان<s>
+               </s>المامور به قولا
+            <s>هو احتراز عن الاشارة وعن افعال
+             <ref target="#MHD">النبي</ref>
+               عليه السلام</s> وعند
+             <persName xml:id="SHF" xml:lang="ara">الشافعي</persName>
+            رحمه الله الامر يكون بالقول والفعل
+            جميعا فافعال
+            <ref target="#MHD">النبي</ref>
+            عليه السلام موجبة عنده
+            وهذه الصيغة وهي افعل موضوعة للامر حقيقة من غير شركة وهي لغير<s>
+            </s> الامر مجاز
+         </p>
+      </body>
+  </text>
+</TEI>

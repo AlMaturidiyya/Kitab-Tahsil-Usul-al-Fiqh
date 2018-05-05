@@ -70,16 +70,16 @@
                   <pb n="36" xml:lang="ara"/>(٣٦)
                   
                   <title xml:lang="ara">كتاب تحصيل أصول الفقه وتفصيل المقالات فيها على الوجه</title>
-            
+            <!--This is the incipit, but there is no good way to indicate that outside of a quotation in the TEI header-->
             <lb/>بسم الله الرحمن الرحيم
          </head>
          <p>
-            <lb/><s>اصول الفقه والاحكام فرع لعلم اصول الكلام</s>
-            <s>والاصول جمع اصل والاصل ما يتفرع منه غيره</s>
+            <lb/><s>اصول الفقه والاحكام فرع لعلم اصول الكلام</s> <!--I am grateful for the sentence element, as Arabic manuscripts lack punctuation that would indicate to a reader where one thought ends and another begins; this is one way to subtly integrate that information into the encoded transcription-->
+            <s>والاصول جمع اصل والاصل ما يتفرع منه غيره</s> <!--At this point, I am surprised that the elements are functioning LTR (left to right) rather than right to left. I have enabled special character accommodations in the preferences, but I see no functional change-->
             <s>والفقه الوقوف على المعنى الخفيّ الذي تعلق به حكم يحتاج فيه الى النظر والاستدلال</s>
             <s>والدلائل التي يعرف بها الاحكام الشرعية ثلاثة الكتاب والسنة والاجماع</s>
             <s>وفرع هذه الاصول الثلاثة القياس الشرعي</s>
-            <persName xml:id="MHD" xml:lang="ara">محمد</persName>فالكتاب هو القرآن المنزل على رسولنا<s>
+            <persName xml:id="MHD" xml:lang="ara">محمد</persName>فالكتاب هو القرآن المنزل على رسولنا<s> <!--Here, RTL (right to left) directionality suddenly begins. I need more time to investigate why this changed so abruptly in the middle of the body text.-->
             صلى الله عليه
             </s>وسلّم امرنا بالايمان والعمل به ونهينا عن العمل بالتورية والانجيل والنظر فيها لوقوع التحريف في بعضها
             وتعلق الاحكام بالكتاب<s>
@@ -91,19 +91,19 @@
             </s>لفظ الامام ابي منصور رحمه الله هو القول الذي هو دعاء الى تحصيل الفعل على طريق العلوّ والعظمة دون التضرع
             وهذا<s>
             </s>تحرّز عن السؤال والدعاء
-          وقيل هو الاستدعآء على طريق الاستعلاء قولا
+          وقيل هو الاستدعآء على طريق الاستعلاء قولا <!--I am unable to add a sentence element here due to an issue with the RTL functionality.-->
                وقيل هو اقتضآء الطاعة من المامور باتيان<s>
                </s>المامور به قولا
             <s>هو احتراز عن الاشارة وعن افعال
-             <ref target="#MHD">النبي</ref>
+             <ref target="#MHD">النبي</ref> <!--RTL functionality is forcing me to put tagged items on their own line to avoid formatting and encoding issues.-->
                عليه السلام</s> وعند
              <persName xml:id="SHF" xml:lang="ara">الشافعي</persName>
             رحمه الله الامر يكون بالقول والفعل
             جميعا فافعال
             <ref target="#MHD">النبي</ref>
-            عليه السلام موجبة عنده
+            عليه السلام موجبة عنده <!--I would like to add an element highlighting certain religious expressions, but that will require further review of what others have done with parallel exhortations.-->
             وهذه الصيغة وهي افعل موضوعة للامر حقيقة من غير شركة وهي لغير<s>
-            </s> الامر مجاز
+            </s> الامر مجاز <!--This is 3/4 of the first section of the manuscript. I intend to complete the whole first section, at least.-->
          </p>
       </body>
   </text>
